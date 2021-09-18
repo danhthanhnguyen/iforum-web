@@ -1,0 +1,37 @@
+.nav-bar {
+  background-color: #2c2c2f !important;
+}
+
+.nav-bar .nav-bar__tool-bar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-bar .nav-bar__tool-bar .nav-bar__link {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-bar .nav-bar__tool-bar .nav-bar__link .nav-bar__link--logo {
+  width: 90px;
+}
+
+.nav-bar .nav-bar__search-questions {
+  width: 100%;
+}
+
+.nav-bar .nav-bar__search-questions input {
+  width: 100% !important;
+}
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  background-color: #2c2c2f !important;
+}
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper * {
+  color: #ffffff;
+}
+/*# sourceMappingURL=NavBar.css.map */

@@ -1,7 +1,15 @@
 import "./App.css";
+import React from "react";
+import NavBar from "./components/NavBar";
 
 function App() {
-  return <div className="App">iForum</div>;
+  return (
+    <div className="App">
+      <div className="App__header">
+        <NavBar />
+      </div>
+    </div>
+  );
 }
 
 export default App;
