@@ -3,6 +3,7 @@
 }
 
 .nav-bar .nav-bar__tool-bar {
+  padding: 0 4.4566rem !important;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

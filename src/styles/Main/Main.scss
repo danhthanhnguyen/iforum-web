@@ -1,0 +1,24 @@
+.main-section__grid {
+  margin-top: 0 !important;
+  // SideBar CSS
+  .side-bar {
+    user-select: none;
+    .side-bar__task {
+      background-color: rgba(147, 148, 154, 0.22);
+      border-radius: 1.5rem;
+      display: flex;
+      width: 100%;
+      padding: 0.5112rem 1.2134rem;
+      box-sizing: border-box;
+      color: #ffffff;
+      margin-bottom: 0.7844rem;
+      align-items: center;
+      justify-content: flex-start;
+      .side-bar__task--title {
+        margin-left: 0.7112rem;
+        text-transform: none;
+        font-size: 0.9444rem;
+      }
+    }
+  }
+}
