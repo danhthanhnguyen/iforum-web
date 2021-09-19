@@ -14,13 +14,108 @@
       margin-bottom: 0.7844rem;
       align-items: center;
       justify-content: flex-start;
+      .side-bar__task--icon {
+        svg {
+          font-size: 1.2248rem;
+        }
+      }
       .side-bar__task--title {
         margin-left: 0.7112rem;
         text-transform: none;
-        font-size: 0.9444rem;
+        font-size: 0.7244rem;
       }
     }
   }
+  // ListQuestions CSS
+  .list-questions {
+    height: calc(100vh - 24px - 74.63px);
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      background-color: #2c2c2f;
+      width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #212124;
+      border-radius: 8px;
+    }
+    .question {
+      margin-bottom: 1.1rem;
+      .question-card {
+        background-color: #313238 !important;
+        display: flex;
+        padding: 0.888rem 0;
+        color: #ffffff;
+        .question-rate {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 0 1.1122rem;
+          svg {
+            margin: 0;
+          }
+        }
+        .question-card__content {
+          padding: 0 1.8889rem 0 0;
+          text-align: left;
+          .question-card__content--title {
+            font-size: 1.2864rem;
+            font-weight: bold;
+          }
+          .question-card__content--tag {
+            font-size: 0.8864rem;
+            background-color: rgba(147, 148, 154, 0.22);
+            width: 100%;
+            padding: 0.25rem 0.48rem;
+            border-radius: 5px;
+          }
+          .question-card__content--body {
+            margin-top: 0.8999rem;
+          }
+          .question-card__content--line {
+            width: 100%;
+            border-bottom: 1px solid #6b6b6b;
+          }
+          .question-task {
+            display: flex;
+            justify-content: space-between;
+            .question-task__avatar-name {
+              display: flex;
+              align-items: center;
+              .question-task__name--real-name {
+                margin: 0 0.5666rem;
+                font-size: 1.0003rem;
+              }
+              .question-task__created-at {
+                font-size: 0.7256rem;
+              }
+            }
+            .question-task__like-comment {
+              display: flex;
+              .question-task__like,
+              .question-task__comment {
+                display: flex;
+                align-items: center;
+                margin: 0 0.42rem;
+                svg {
+                  font-size: 1.2024rem;
+                }
+                .question-task__like--count,
+                .question-task__comment--count {
+                  font-size: 0.724rem;
+                  padding: 0 0.0688rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .question:last-child {
+      margin-bottom: 0;
+    }
+  }
+  // StatusBar CSS
   .status-bar {
     user-select: none;
     .status-bar__button--question {
